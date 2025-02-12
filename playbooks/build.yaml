@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: Testhtml:latest #docker image name
+         name: verbee:latest #docker image name
          source: build
          build:
-            path: ~/Testhtml #path ที่เก็บไฟล์ sourcecode 
+            path: ~/verbee #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
